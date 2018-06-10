@@ -6,7 +6,7 @@ Great overview about optimization algorithms is [here](http://ruder.io/optimizin
 
 Results:
 
-From this simple example, I can conclude:
+From this simple example, we can conclude:
 1. Not-adaptive algorithms (SGD, Momentum, NAG) need high learning rate for this task. With small learning rates, progress is slow.
 2. Adaptive algorithms (Adam, Adagrad, RMSProp) fail (diverge) with high learning rates
 3. Best results are achieved by Adam, RMSProp and Adagrad (depending on lr)
